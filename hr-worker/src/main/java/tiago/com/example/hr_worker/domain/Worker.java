@@ -1,4 +1,4 @@
-package tiago.com.example.hr_worker.entities;
+package tiago.com.example.hr_worker.domain;
 
 import javax.persistence.*;
 

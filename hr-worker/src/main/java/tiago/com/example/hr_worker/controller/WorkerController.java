@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import tiago.com.example.hr_worker.entities.Worker;
+import tiago.com.example.hr_worker.domain.Worker;
 import tiago.com.example.hr_worker.repositories.WorkerRepositories;
 
 import java.util.List;
