@@ -24,6 +24,7 @@ public class PaymentController {
         return ResponseEntity.ok(payment);
     }
 
+    /*Metodo de resposta alternativa*/
     public ResponseEntity<Payment> getPaymentFallback(Long workerId, Integer days) {
         Payment payment = new Payment("Brann", 400.0, days);
         return ResponseEntity.ok(payment);
